@@ -66,6 +66,18 @@ span {
   color: aqua;
 }
 
+.sotial-networks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.sotial-networks i {
+  font-size: 1.5em;
+}
+
 .download-button {
   padding: 10px 20px;
   background-color: aqua;
@@ -85,19 +97,27 @@ span {
 
 .main img {
   width: 350px;
-  height: 520px;
+  height: 490px;
   z-index: 1;
 }
 
 .about-me {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
   width: 100vw;
   align-items: center;
 }
 
+.img1 {
+  padding: 2em;
+}
+
+.img2 {
+  padding: 2em;
+}
+
 .about-info {
-  grid-column: 5/10;
   padding: 3em;
 }
 
@@ -116,4 +136,28 @@ span {
 
 .about p {
   margin-bottom: 1em;
+}
+
+.experiencia {
+  background-color: red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  padding: 2em;
+  background-color: aqua;
+}
+
+.footer-content h2 {
+  font-size: 3em;
+}
+
+.footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
 }

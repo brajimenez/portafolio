@@ -68,9 +68,6 @@ h1 span {
   color: aqua;
 }
 
-/* #icono-nav {
-  color: #fff;
-} */
 .redes a {
   text-decoration: node;
   color: #fff;
@@ -93,9 +90,9 @@ h1 span {
 }
 .Bievenida {
   font-size: 16px;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 5px;
 }
 .presentacion h2 {
   font-size: 55px;
@@ -104,13 +101,13 @@ h1 span {
 }
 
 .presentacion h2 span {
-  font-size: 40px;
+  font-size: 25px;
   color: aqua;
 }
 .descripcion {
-  max-width: 70rem;
+  max-width: 700px;
   margin: 25px auto;
-  font-size: 1.8rem;
+  font-size: 18px;
   text-align: center;
 }
 .presentacion a {
@@ -238,7 +235,7 @@ h1 span {
     color: #fff;
   }
   .presentacion h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   #sobremi {
     padding: 50px 0;

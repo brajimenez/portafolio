@@ -207,6 +207,8 @@ h1 span {
   background-color: aqua;
 }
 
+/* seccion Skills */
+
 .contenedor-skills {
   background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)),
     url(../img/mugiwara.jpg);
@@ -233,13 +235,7 @@ h1 span {
   width: 10px;
   background-color: #fff;
 }
-/* .lista {
-  display: inline-block;
-  margin-right: 20px;
-  height: 10px;
-  width: 10px;
-  background-color: #fff;
-} */
+
 .barra {
   background-color: #eb5a5acc;
   width: 100%;
@@ -351,19 +347,18 @@ h1 span {
 #contacto {
   padding: 2rem;
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(171, 170, 181);
 }
 #contacto h2 {
-  padding: 210rem;
+  padding: 2rem;
   text-align: center;
 }
 
 .contact-row {
   display: flex;
-  padding-bottom: 2rem;
 }
 .contact-row-icom {
-  width: 50%;
+  width: 65%;
   text-align: center;
   font-weight: bold;
 }
@@ -408,6 +403,7 @@ footer a {
     display: block;
     color: #fff;
   }
+
   .presentacion h2 {
     font-size: 30px;
   }
@@ -415,12 +411,13 @@ footer a {
     padding: 50px 0;
     display: block;
   }
-  .contenido-foto {
+  .contenedor-foto {
     max-width: 200px;
     margin: auto;
   }
-  .contenido-foto img {
+  .contenedor-foto img {
     padding: 8px;
+    align-items: center;
   }
   .titulo-seccion {
     text-align: center;
@@ -446,10 +443,4 @@ footer a {
     justify-content: center;
     padding-bottom: 10px;
   }
-  /* .card {
-    width: 300px;
-    background-color: #2b3058;
-    margin: 2em;
-    flex-wrap: wrap;
-  } */
 }
